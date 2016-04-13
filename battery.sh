@@ -2,8 +2,15 @@
 
 remindMe(){
 
+uN=`uname -a`
+
 AC_File="/sys/class/power_supply/ADP1/online"
+
+if [ "${uN/"debian"}" != "$uN" ]; then
 B_File="/sys/class/backlight/acpi_video1/brightness"
+elif [ "${uN/"Ubuntu"}" != "$uN" ]; then
+B_File="/sys/class/backlight/intel_backlight/brightness"
+fi
 
 initAC=`cat $AC_File`
 
