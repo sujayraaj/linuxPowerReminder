@@ -10,4 +10,4 @@ To Stop:
 
 $./stop.sh
 
-For more details, visit : http://sujayraaj.in/2016/01/10/laptop-battery-linux-and-writing-a-power-supply-reminder/
+Archived [BLOG](https://web.archive.org/web/20161026190936/http://sujayraaj.in/2016/01/10/laptop-battery-linux-and-writing-a-power-supply-reminder/)
